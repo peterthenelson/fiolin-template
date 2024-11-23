@@ -1,7 +1,12 @@
 # Welcome to Fiolin
 
 This is your very own fiolin repository. You can update your existing scripts or
-add new ones [here](./fiols).
+add new ones [here](./fiols). Your published scripts can be run by anyone on
+[fiolin.org](fiolin.org). Links take the form of:
+
+```
+https://fiolin.org/third-party/?gh={user-name}/{repo-name}/{script-name}
+```
 
 ## Setup
 
@@ -11,6 +16,9 @@ commands to run, test, and (re)deploy your scripts to github pages.
 ## Development
 
 ```sh
+# Install node dependencies and otherwise finish setting up your repository:
+$ npm run prepare
+
 # Run a script locally from the command line:
 # TODO
 
